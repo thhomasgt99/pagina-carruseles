@@ -1,0 +1,112 @@
+header{
+    background-color: #21c08b;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    margin: 0%;
+    background-color: #ffffff;
+}
+.header__img{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+.register{
+    background:linear-gradient(#21c08b,#ab88ff) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    min-height: calc(100vh - 200px);
+}
+.register__container{
+    background-color: rgba(255, 255, 255,0.2);
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    padding: 60px 68px 40px;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.register__container--form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.register__container--register{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.register__container--register a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: 100;
+    letter-spacing:1px;
+}
+.register__container--register a:hover{
+    text-decoration: underline;
+}
+.input{
+    margin: 10px;
+    height: 50px;
+    padding: 0px 20px;
+    background-color: transparent;
+    font-family: arial;
+    font-weight: 100;
+    padding: 0px 20px;
+    font-size: 16px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1px solid #ffffff;
+    outline: none;  
+    cursor: pointer;
+}
+::placeholder{
+    color: #ffffff;
+}
+.button{
+    background-color: rgba(255, 255, 255,0.2);
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    height: 45px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+.footer{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    background-color: #ab88ff;
+}
+.footer a{
+    color:#ffffff;
+    cursor: pointer;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+

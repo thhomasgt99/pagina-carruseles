@@ -1,0 +1,86 @@
+header{
+    background-color: #8f57fd;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: #8f57fd;
+}
+.header__img{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+.header__menu{
+    margin-right: 30px;
+}
+.header__menu--perfil{
+    margin-right: 30px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items:initial ;
+}
+.header__menu ul{
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0 0 0 -14px;
+}
+.header__menu--perfil img{
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+.header__menu--perfil:hover ul, ul:hover{
+    display: block;
+}
+.header__menu li{
+
+    margin: 10px  0;
+}
+.header__menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header__menu .li-cuenta{
+    margin-top: 70px;
+}
+.header__menu li a:hover{
+    text-decoration:underline;
+}
+.header__menu--perfil p{
+    margin-top: 0px;
+}
+/*//////////////////////////////////////////////////////////////*/
+
+.main{
+    height: 300px;
+}
+.main__title{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+.input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'muli',sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0% 15px;
+    width: 70%;
+    outline: none;
+}
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
